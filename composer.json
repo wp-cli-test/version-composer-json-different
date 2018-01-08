@@ -1,7 +1,7 @@
 {
     "name": "wp-cli-test/version-composer-json-different",
     "description": "wp-cli test retrieve correct version-dependent composer.json.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "wp-cli-package",
     "license": "MIT",
     "autoload": {
@@ -9,6 +9,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "wp-cli/wp-cli": "*"
+        "wp-cli/wp-cli": "*",
+        "wp-cli/profile-command": "*"
     }
 }
